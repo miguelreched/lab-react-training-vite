@@ -6,6 +6,8 @@ import Rating from "./components/Rating";
 import Greetings from "./components/Greetings";
 import CreditCard from "./components/CreditCard";
 import IdCard from "./components/IdCard";
+import LikeButton from "./components/LikeButton";
+import ClickablePicture from "./components/ClickablePicture";
 
 function App() {
   return (
@@ -96,6 +98,28 @@ function App() {
     licensePlate: "BE33ER"
   }}
 />
+
+<LikeButton/>
+
+<ClickablePicture
+  img="maxence.png"
+  imgClicked="maxence-glasses.png"
+/>
+
+<Dice />
+
+<Carousel
+  images={[
+    "https://randomuser.me/api/portraits/women/1.jpg",
+    "https://randomuser.me/api/portraits/men/1.jpg",
+    "https://randomuser.me/api/portraits/women/2.jpg",
+    "https://randomuser.me/api/portraits/men/2.jpg"
+  ]}
+/>
+
+<NumbersTable limit={12} />
+
+<FaceBook />
 
 
       <h1> LAB | React Training</h1>

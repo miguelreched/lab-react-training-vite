@@ -3,13 +3,13 @@ function Greetings(props){
 
 
    if (props.lang === "de"){
-    return (<p>"hallo"</p> )
+    return (<p>"hallo" {props.children}</p> )
    }else if (props.lang === "en"){
-    return ( <p>"hello"</p> )
+    return ( <p>"hello" {props.children}</p> )
    }else if (props.lang === "es"){
-    return ( <p>"hola"</p> )
+    return ( <p>"hola" {props.children}</p> )
    }else if (props.lang === "fr"){
-    return ( <p>"bonjour"</p> )
+    return ( <p>"bonjour" {props.children}</p> )
    }
    return(
        <div>
