@@ -8,6 +8,9 @@ import CreditCard from "./components/CreditCard";
 import IdCard from "./components/IdCard";
 import LikeButton from "./components/LikeButton";
 import ClickablePicture from "./components/ClickablePicture";
+import NumbersTable from "./components/NumbersTable"
+import Carousel from "./components/Carousel"
+
 
 function App() {
   return (
@@ -106,7 +109,7 @@ function App() {
   imgClicked="maxence-glasses.png"
 />
 
-<Dice />
+{/* <Dice /> */}
 
 <Carousel
   images={[

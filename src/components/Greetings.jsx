@@ -1,7 +1,5 @@
 function Greetings(props){
 
-
-
    if (props.lang === "de"){
     return (<p>"hallo" {props.children}</p> )
    }else if (props.lang === "en"){

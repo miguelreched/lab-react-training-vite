@@ -1,7 +1,5 @@
 function IdCard(props){
 
-
-
     return( 
     <div>
     <h3>{props.lastName}</h3>

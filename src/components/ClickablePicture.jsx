@@ -1,4 +1,4 @@
-function ClickablePicture({img, imgClicked}) => {
+function ClickablePicture({img, imgClicked}) {
     const [clickImage, setclickImage] = useState(firstImage)
 
 const handleClickPicture = () => {

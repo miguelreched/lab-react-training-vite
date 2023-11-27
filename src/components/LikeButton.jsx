@@ -3,7 +3,6 @@ function LikeButton() {
   const [like, setLike] = useState(0)
   const colors = ["purple", "blue", "green", "yellow", "orange", "red"]
   
-  
   const handleLikebutton = () => {
     // setLike(like++)
   }
