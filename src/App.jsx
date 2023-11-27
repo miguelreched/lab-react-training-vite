@@ -12,6 +12,8 @@ import NumbersTable from "./components/NumbersTable"
 import Carousel from "./components/Carousel"
 
 
+
+
 function App() {
   return (
     <div className="App">
@@ -20,7 +22,7 @@ function App() {
   firstName='John'
   gender='male'
   height={178}
-  birth={new Date("1992-07-14")}
+  birth={new Date("1992-07-14").toString()}
   picture="https://randomuser.me/api/portraits/men/44.jpg"
 />
 
@@ -29,7 +31,7 @@ function App() {
   firstName='Obrien'
   gender='female'
   height={172}
-  birth={new Date("1988-05-11")}
+  birth={new Date("1988-05-11").toString()}
   picture="https://randomuser.me/api/portraits/women/44.jpg"
 />
 
@@ -106,7 +108,7 @@ function App() {
 
 <ClickablePicture
   img="maxence.png"
-  imgClicked="maxence-glasses.png"
+  imgClicked="./src/assets/images/glasses.png"
 />
 
 {/* <Dice /> */}
@@ -122,7 +124,7 @@ function App() {
 
 <NumbersTable limit={12} />
 
-<FaceBook />
+{/* <FaceBook /> */}
 
 
       <h1> LAB | React Training</h1>

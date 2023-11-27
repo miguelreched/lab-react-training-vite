@@ -1,5 +1,7 @@
+import { useState } from "react"
+
 function ClickablePicture({img, imgClicked}) {
-    const [clickImage, setclickImage] = useState(firstImage)
+    const [clickImage, setclickImage] = useState(img)
 
 const handleClickPicture = () => {
     setclickImage((click => !click))

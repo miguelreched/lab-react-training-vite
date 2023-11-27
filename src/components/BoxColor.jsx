@@ -1,16 +1,14 @@
 function BoxColor(props){
-    let randonNum1 = Math.floor(Math.random() * 255)
-    let randonNum2 = Math.floor(Math.random() * 255)
-    let randonNum3 = Math.floor(Math.random() * 255)
+
+
     return(
-<div>
-r={randonNum1}
-g={randonNum2}
-b={randonNum3}
+<div style={{backgroundColor:`rgb(${props.r}, ${props.g}, ${props.b})`}}>               
+r={props.r}
+g={props.g}
+b={props.b}
 
 
 </div>
     )
 }
-
 export default BoxColor

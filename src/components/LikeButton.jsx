@@ -1,3 +1,4 @@
+import { useState } from "react"
 function LikeButton() {
   
   const [like, setLike] = useState(0)
